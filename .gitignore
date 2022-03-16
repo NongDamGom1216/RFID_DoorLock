@@ -1,0 +1,10 @@
+.DS_Store
+*.eep
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+*.a
+build/includes.cache
+build/build.options.json
