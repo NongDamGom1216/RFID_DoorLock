@@ -53,7 +53,7 @@ void setup()
     reader.init();
     mfrc.PCD_Init();
     t1 = millis();
-    // pinMode(button, INPUT_PULLUP); // 버튼을 INPUT PULL UP
+    pinMode(button, INPUT_PULLUP); // 버튼을 INPUT PULL UP
     //reader.clear_id();
     // 필요 시 EEPROM 초기화
     reader.read_id(myId);
